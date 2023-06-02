@@ -29,7 +29,7 @@ Then the Todo should be stored with a Completed Boolean
 We've been very successful with the todo service, congrats btw. So successul that we need to distribute the application across a pool of nodes.
 
 Given a Todo
-When the Object is actively being Edited    
+When the Object is actively being Edited by a user    
 Then other pools in the node should see the Todo in queries     
- And should not return the Todo
+ and should return the todo in a locked state to all users except the editor
 
