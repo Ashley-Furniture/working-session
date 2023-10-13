@@ -5,20 +5,20 @@
 Create a simple todo REST api that will fulfill the following:
 
 Given a Todo    
-When the Object doesn't exist   
+When the Object doesn't exist in the database
 Then the Todo should be written to a database   
 
 Given a Todo    
 When the Object exists in the database  
-Then the Todo Should be Updates in the database 
+Then the Todo should be updated in the database 
 
 Given a Request for a Todo by Id    
 When the Object exists in the database  
-Then the Todo should retun the Object   
+Then the Todo should return the Object   
 
 Given a Request for a Todo by Id    
 When the Object doesn't exit in the database    
-Then the Todo should return an Error    
+Then the Todo should return an error    
 
 Given a Todo    
 When the Object is marked as `Complete`     
